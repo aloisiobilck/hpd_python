@@ -1,4 +1,4 @@
-#!/usr/bin/env/ python3
+#!/usr/bin/env/ python3.6
 
 import docker, argparse, sys
 from datetime import datetime
@@ -93,4 +93,3 @@ criar_opt.set_defaults(func=procurar_container)
 
 cmd = parser.parse_args()
 cmd.func(cmd)
-
